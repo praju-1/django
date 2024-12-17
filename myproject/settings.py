@@ -124,7 +124,7 @@ STATICFILES_DIRS = [os.path.join(BASE_DIR, "static")]
 
 TEMPLATES[0]['DIRS'] = [os.path.join(BASE_DIR, 'templates')]
 # Static Files Settings
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')  # For production use
+# STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')  # For production use
 
 
 # Default primary key field type
