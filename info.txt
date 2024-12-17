@@ -1,0 +1,12 @@
+1 create virtual enviornent
+ pip install virtualenv
+
+ to create
+ python -m venv venv
+
+to-activate
+  .\venv\Scripts\activate
+
+pip install gunicorn
+
+pip freeze > requirements.txt
